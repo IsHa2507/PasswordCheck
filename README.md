@@ -34,15 +34,6 @@
 
 ---
 
-## 📸 Screenshot
-
-> 📌 Save this image as `screenshot.png` in the same folder.
-
-You can take a screenshot of the running app using:
-- Windows: `Win + Shift + S`
-- Save it as `screenshot.png` in your project folder
-
----
 
 ## 🚀 How to Run
 
@@ -51,4 +42,14 @@ You can take a screenshot of the running app using:
 ```bash
 git clone https://github.com/your-username/passguardian.git
 cd passguardian
+---
+### 2. Install Dependencies
 
+```bash
+pip install requests zxcvbn pyperclip
+---
+### 3. Run the App
+
+```bash
+python passguardian.py
+---
